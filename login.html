@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narayana Hospital Login NHL</title>
+    <link rel="icon" type="image/png" href="Img/web_logo.png">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="otp">
+        <div id="logins1">
+            <div id="loginleft">
+                <div id="logins">
+                    <div id="loginleft1">
+                        <div id="loginleft2">
+                            <div id="loginleft3"></div>
+                        </div>
+                        <div id="loginleft4">Access your health records in one place</div>
+                    </div>
+                    <div id="loginleft5">
+                        <div id="loginleft6">
+                            <div id="loginleft7"></div>
+                        </div>
+                        <div id="loginleft8">Keep track of appointments and doctor visits</div>
+                    </div>
+                    <div id="loginleft9">
+                        <div id="loginleft10">
+                            <div id="loginleft11"></div>
+                        </div>
+                        <div id="loginleft12">View your medical records and lab and test results</div>
+                    </div>
+                </div>
+            </div>
+            <div id="loginright">
+                <div id="loginright1">
+                    <div id="loginright2"></div>
+                    <h2 id="loginright3">Login / Register Account</h2>
+                    <p id="loginright4">Registered to NH Portal? Use your mobile number, as your medical history won't sync to a new one.</p>
+                    <div id="loginright5">
+                        <div class="button-container">
+                            <button id="mobile-btn" class="btn" onclick="showInput('mobile')">Mobile Number</button>
+                            <button id="email-btn" class="btn" onclick="showInput('email')">E-mail</button>
+                        </div>
+
+                        <div id="input-container" class="input-container">
+                            <input type="text" id="mobile-input" placeholder="Enter Mobile Number" style="display:none;">
+                            <input type="email" id="email-input" placeholder="Enter E-mail ID" style="display:none;">
+                        </div>
+
+                        <button id="send-otp-btn" class="btn" onclick="sendOTP()" style="display:none;">Send OTP</button>
+
+                        <div id="otp-container" class="input-container" style="display:none;">
+                            <input type="text" id="otp-input" placeholder="Enter OTP">
+                            <button id="button1" class="btn" onclick="verifyOTP()">Verify OTP</button>
+                        </div>
+
+                        <div id="dialog" class="dialog" style="display:none;">
+                            <div class="dialog-content">
+                                <p>The Appointment is booked!</p>
+                                <a href="index.html" id="home-link">
+                                    <button id="button1" class="btn">OK</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="loginright9">
+                            <form>
+                                <div id="loginform">
+                                    <input type="checkbox" id="subscribe" name="subscribe" checked> By logging in, you agree to our Terms of Use
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

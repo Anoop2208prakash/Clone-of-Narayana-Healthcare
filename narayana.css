@@ -1,0 +1,1239 @@
+body{
+    margin: 0;
+}
+/* div,p{
+    border: 2px solid black;
+} */
+#header{
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    position: sticky;
+
+    top: 0px;
+}
+#pic1{
+    background-image: url('Img/logo.jpg') ;
+    background-size: cover;
+    height: 72px;
+    width: 182px;
+    /* margin-top: 20px; */
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#pic2{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url(Img/search.jpg);
+    background-size: cover;
+    height: 19px;
+    width: 19px;
+}
+#pic3{
+    background-image: url(Img/call-icon1.png);
+    background-size: cover;
+    height: 19px;
+    width: 19px;
+}
+#pic4{
+    background-image: url(Img/location.png);
+    background-size: cover;
+    height: 19px;
+    width: 19px;
+}
+#pic5{
+    background-image: url(Img/user-login.png);
+    background-size: cover;
+    height: 19px;
+    width: 19px;
+}
+#navbar2, #navbar,#content1, #location1, #login1{
+    display: flex;
+    height: 20px;
+    color: #034ea2;
+    margin-top: 35px;
+}
+#header, .nav1, .cont1, .locat, .login{
+    display: flex;
+}
+.about{
+    height: 28px;
+}
+#nav-bar{
+    display: flex;
+    position: absolute;
+    left: 550px;
+    height: 42px;
+    top: 85px;
+    align-content: center;
+    text-align: center;
+}
+#navbar{
+    margin-left: 480px;
+    font-size: 18px;
+}
+#navbar2, #content1, #location1, #login1{
+    margin-left: 60px;
+    font-size: 18px;
+}
+/* #booking2{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+    width: 200px;
+    background-color: #034ea2;
+    color: white;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+} */
+#about1{
+    margin-left: 40px;
+    width: 78px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#services1{
+    margin-left: 40px;
+    width: 107px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#network1{
+    margin-left: 40px;
+    width: 115px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#health6{
+    margin-left: 40px;
+    width: 93px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#emergency1{
+    margin-left: 40px;
+    width: 94px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#button1{
+    margin-left: 40px;
+}
+#navbar3, #content2, #location2, #login2{
+    margin-left: 5px;
+}
+#navbar3{
+    width: 118px;
+}
+#location3{
+    border: none;
+    font-size: 15px;
+    color: #034ea2;
+}
+.appointment-container {
+    position: relative;
+    display: inline-block;
+}
+
+.appointment-button {
+    /* padding: 15px 30px; */
+    height: 40px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+    background-color: #034ea2;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.appointment-button:hover {
+    background-color: #034ea2;
+}
+
+/* Contact Info, hidden by default */
+.contact-info {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+/* Show the contact info on button hover */
+.appointment-container:hover .contact-info {
+    display: block;
+}
+#app3{
+    background-image: url(Img/doctor-appointment.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+#consu3{
+    background-image: url(Img/video_consulatation.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+#lab3{
+    background-image: url(Img/lab_test.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+#health3{
+    background-image: url(Img/health-care.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+#app2, #consu2, #first, #lab2, #health2, #second{
+    display: flex;
+}
+#app4, #consu4, #lab4, #health4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#app1, #consu1, #lab1, #health1{
+    height: 100px;
+    width: 280px;
+}
+#background1{
+    background-image: url(Img/background.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 500px;
+    margin-top: 0px;
+}
+#app5, #consu5, #lab5, #health5{
+    margin-left: 40px;
+    text-align: left;
+    margin-top: 5px;
+}
+.modal {
+    /* display: none; */
+    position: fixed;
+    /* z-index: 1; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 770px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#logins1, #loginright{
+    display: inline-flex;
+}
+
+#logins1{
+    height: 579px;
+    width: 768px;
+}
+#loginleft1{
+    height: 122px;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loginleft2{
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+#loginleft3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    height: 40px;
+    width: 40px;
+    background-image: url(Img/person.png);
+    background-size: cover;
+}
+#loginleft7{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    height: 40px;
+    width: 40px;
+    background-image: url(Img/clipboard.png);
+    background-size: cover;
+}
+#loginleft5{
+    margin-top: 40px;
+    height: 122px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loginleft6{
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+#loginleft9{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 122px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loginleft10{
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+#loginleft11{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    height: 40px;
+    width: 40px;
+    background-image: url(Img/test-tube.png);
+    background-size: cover;
+}
+#logins{
+    height: 577px;
+    width: 304px;
+    background-color: lightblue;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#loginleft12, #loginleft8, #loginleft4{
+    font-weight: 550;
+}
+#loginright2{
+    height: 49.5px;
+    width: 122px;
+    background-image: url(Img/logo.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#loginright3{
+    margin-top: 1;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 8px;
+}
+#loginright4{
+    margin-top: 4px;
+    text-align: left;
+    margin-left: 8px;
+}
+#contactInput{
+    height: 40px;
+    width: 298px;
+}
+#sendOtpBtn{
+    margin-left: 5px;
+    height: 45px;
+    width: 100px;
+    font-size: 10px;
+    color: white;
+    background-color: #034ea2;
+    font-weight: bold;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+#text1{
+    display: flex;
+}
+#otpInput{
+    height: 40px;
+    width: 298px;
+}
+#verifyOtpBtn{
+    margin-left: 5px;
+    height: 45px;
+    width: 100px;
+    font-size: 10px;
+    color: white;
+    background-color: #034ea2;
+    font-weight: bold;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+#text2{
+    display: flex;
+}
+#mobileBtn, #emailBtn{
+    background-color: white;
+    color: black;
+    height: 35px;
+    width: 200px;
+}
+.active {
+    background-color: grey !important;
+    color: white !important;
+}
+#contactForm, #otpForm{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+/* #subscribe{
+    margin-top: 200px;
+} */
+#loginform{
+    position: fixed;
+    bottom: 80px;
+    margin-left: 20px;
+}
+#text3{
+    margin-top: 0;
+    margin-bottom: 1;
+    text-align: left;
+}
+#search{
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+#search1{
+    height: 150px;
+    width: 1200px;
+    background-color: #034ea2;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#btn{
+    background-color: white;
+    color: #034ea2;
+    border: none;
+    margin-top: 0;
+    margin-left: 5px;
+    height: 20px;
+    font-size: medium;
+}
+#search4, #search5{
+    color: white;
+}
+#Search3, #Search7, #Search10, #Search12, #search2{
+    display: flex;
+}
+#search4{
+    margin-top: 15px;
+    width: 245px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+/* #Search1{
+    margin-top: 420px; 
+} */
+#search5{
+    margin-top: 20px;
+    width: 245px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    font-size: 15px;
+}
+#search6{
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 245px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #034ea2;
+    color: white;
+    columns: white;
+}
+#search8{
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    text-align: left;
+}
+#search9{
+    margin-top: 18px;
+    width: 485px;
+    height: 40px;
+    font-size: larger;
+}
+#search10{
+    width: 118px;
+}
+#search11{
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 55px;
+    margin-bottom: auto;
+}
+#search12{
+    width: 118px;
+}
+#search13{
+    background-image: url(Img/mike.png);
+    background-size: cover;
+    height: 55px;
+    width: 55px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+#search3{
+    margin-left: 30px;
+    margin-right: 50px;
+}
+#search7{
+    margin-right: 50px;
+}
+#search10{
+    margin-left: 65px;
+}
+#chairman1{
+    margin-top: 100px;
+}
+#chairman2{
+    margin-left: auto;
+    margin-right: auto;
+}
+#chairman3{
+    height: 52px;
+    width: 1200px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+#chairman4{
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#chairman5{
+    height: 570px;
+    width: 450px;
+    /* background-color: aqua; */
+    background-image: url(Img/cartoon.png);
+    background-size: cover;
+    background-repeat: round;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#chairman6{
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+#care1{
+    margin-top: 50px;
+    background-color: #efefef;
+    margin-bottom: 20px;
+}
+#care2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#care4{
+    height: 52px;
+    width: 1200px;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+#care5{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    font-size: 20px;
+    text-align: center;
+}
+#q2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cancer-care5 {
+    width: 265px;
+    height: 400px;
+    background-image: url('Img/cardiac.png'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: #034ea2;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(13, 145, 178, 0.7);
+    text-align: center;
+    flex-direction: column;
+}
+.cancer-care5:hover {
+    /* background-color: #333;  */
+    background-image: url('Img/human-heart.jpg'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat; /* Remove background image */
+}
+.hover-content5 {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.cancer-care5:hover .overlay-text5 {
+    display: none;
+}
+.cancer-care5:hover .hover-content5 {
+    display: block;
+}
+.learn-more-btn5 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.learn-more-btn5:hover {
+    background-color: #ff4b4b; /* Darker shade for hover effect */
+}
+.cancer-care1 {
+    width: 265px;
+    height: 400px;
+    background-image: url('Img/cancer.png'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: #034ea2;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    flex-direction: column;
+}
+.cancer-care1:hover {
+    /* background-color: #333;  */
+    background-image: url('Img/cancer1.png'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat; /* Remove background image */
+}
+.hover-content1 {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.cancer-care1:hover .overlay-text1 {
+    display: none;
+}
+.cancer-care1:hover .hover-content1 {
+    display: block;
+}
+.learn-more-btn1 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.learn-more-btn1:hover {
+    background-color: #ff4b4b; /* Darker shade for hover effect */
+}
+.cancer-care2 {
+    width: 265px;
+    height: 400px;
+    background-image: url('Img/human-brain-vector-illustration.png'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: #034ea2;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    flex-direction: column;
+}
+.cancer-care2:hover {
+    /* background-color: #333;  */
+    background-image: url('Img/brain1.png'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat; /* Remove background image */
+}
+.hover-content2 {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.cancer-care2:hover .overlay-text2 {
+    display: none;
+}
+.cancer-care2:hover .hover-content2 {
+    display: block;
+}
+.learn-more-btn2 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.learn-more-btn2:hover {
+    background-color: #ff4b4b; /* Darker shade for hover effect */
+}
+.cancer-care3 {
+    width: 265px;
+    height: 400px;
+    background-image: url('Img/heartburn.png'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: #034ea2;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    flex-direction: column;
+}
+.cancer-care3:hover {
+    /* background-color: #333;  */
+    background-image: url('Img/heartburn1.png'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat; /* Remove background image */
+}
+.hover-content3 {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.cancer-care3:hover .overlay-text3 {
+    display: none;
+}
+.cancer-care3:hover .hover-content3 {
+    display: block;
+}
+.learn-more-btn3 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.learn-more-btn3:hover {
+    background-color: #ff4b4b; /* Darker shade for hover effect */
+}
+.cancer-care4 {
+    width: 265px;
+    height: 400px;
+    background-image: url('Img/Orthopaedics.png'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: #034ea2;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    flex-direction: column;
+}
+.cancer-care4:hover {
+    /* background-color: #333;  */
+    background-image: url('Img/ortho.png'); /* Replace with your initial image URL */
+    background-size: cover;
+    background-repeat: no-repeat; /* Remove background image */
+}
+.hover-content4 {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.cancer-care4:hover .overlay-text4 {
+    display: none;
+}
+.cancer-care4:hover .hover-content4 {
+    display: block;
+}
+.learn-more-btn4 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.learn-more-btn4:hover {
+    background-color: #ff4b4b; /* Darker shade for hover effect */
+}
+/* Styling for the Latest Blog section */
+.latest-blog {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the Latest Blog heading */
+  .latest-blog h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the paragraph text */
+  .latest-blog p {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the button row */
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    flex-wrap: wrap; /* Allows wrapping if screen size is small */
+  }
+  
+  /* Styling for the labels to look like buttons */
+  .button-row label {
+    padding: 10px 15px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .button-row label:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hide radio buttons */
+  input[type="radio"] {
+    display: none;
+  }
+  
+  /* Styling for hidden divs */
+  .hidden-divs {
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+  }
+  
+  /* Display divs based on selected radio button */
+  
+  #showFourDivs:checked ~ #fourDivs,
+  #showNewFourDivs:checked ~ #newFourDivs,
+  #showAnotherFourDivs:checked ~ #anotherFourDivs,
+  #showYetAnotherFourDivs:checked ~ #yetAnotherFourDivs {
+    display: flex;
+  }
+  
+  /* Styling for the individual boxes */
+  .hidden-divs .box {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block; /* Align in a row */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.box{
+    height: 450px;
+    width: 326px;
+}
+#a1, #a9, #a10, #a11, #a15, #a16, #a17, #a18, #a19, #a20, #a21, #a22{
+    background-size: cover;
+    background-repeat: round;
+    height: 190px;
+    width: 285px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+#a2{
+    margin-top: 5px;
+    color: #034ea2;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 285px;
+}
+#a3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #454545;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 285px;
+}
+#a4{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 50px;
+}
+#a12{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 90px;
+}
+#a13{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 70px;
+}
+#a14{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 150px;
+}
+#a23{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 100px;
+}
+#a24{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 120px;
+}
+#a5{
+    align-content: center;
+    border-radius: 50%;
+    background-color: #daf3ff;
+    color: #034ea2;
+    height: 40px;
+    text-align: center;
+    margin-top: 6px;
+    width: 40px;
+}
+#a6{
+    margin-left: 10px;
+}
+#a7{
+    margin-top: 5px;
+    color: black;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 17px;
+}
+#a8{
+    margin-top: 5px;
+    color: black;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+#a1{
+    background-image: url(Img/set.png);
+}
+#a9{
+    background-image: url(Img/set1.png);
+}
+#a10{
+    background-image: url(Img/set2.png);
+}
+#a11{
+    background-image: url(Img/set3.png);
+}
+#a15{
+    background-image: url(Img/set4.png);
+}
+#a16{
+    background-image: url(Img/set5.png);
+}
+#a17{
+    background-image: url(Img/set6.png);
+}
+#a18{
+    background-image: url(Img/set7.png);
+}
+#a19{
+    background-image: url(Img/set8.png);
+}
+#a20{
+    background-image: url(Img/set9.png);
+}
+#a21{
+    background-image: url(Img/set10.png);
+}
+#a22{
+    background-image: url(Img/set11.png);
+}
+#footer{
+    margin-top: 50px;
+    background-color: #ecefef;
+    height: 525px;
+}
+#footer1, #footer_logo, #footer_email, #footer_dox1, #npp1{
+    display: flex;
+}
+#footer1{
+    margin: 10px;
+}
+#footer_img1{
+    background-image: url(Img/logo.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 74px;
+    width: 185px;
+}
+#footer2{
+    margin: 10px;
+}
+#footer_con{
+    font-size: 18px;
+    font-weight: 500;
+    height: 47px;
+    width: 340px;
+}
+#footer_logo{
+    height: 50px;
+    width: 340px;
+}
+.footer_socil{
+    height: 32px;
+    width: 32px;
+    margin: 10px;
+}
+#face{
+    background-image: url(Img/facebook_logos.png);
+    background-size: cover;
+    background-repeat: round;
+}
+#twi{
+    background-image: url(Img/Twitter_logo.png);
+    background-size: cover;
+    background-repeat: round;
+}
+#link{
+    background-image: url(Img/linkedin-logo.png);
+    background-size: cover;
+    background-repeat: round;
+}
+#ins{
+    background-image: url(Img/instagram_logo.png);
+    background-size: cover;
+    background-repeat: round;
+}
+#footer_sub{
+    height: 25px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#footer_email{
+    height: 62px;
+    width: 340px;
+    background-color: white;
+
+}
+#footer_email1{
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 50px;
+    width: 290px;
+    padding: 15px,20px,15px,20px;
+    border: none;
+}
+#footer_email2{
+    height: 55px;
+    width: 50px;
+    background-color: white;
+}
+#sendButton{
+    background-image: url(Img/paper.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin-top: 15px;
+    color: transparent;
+    border: none;
+}
+#footer_dow{
+    font-size: 18px;
+    font-weight: 500px;
+    height: 27px;
+    width: 340px;
+}
+#footer_dox2{
+    background-image: url(Img/google-play.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 48px;
+    width: 162px;
+    margin: 5px;
+}
+#footer_dox3{
+    background-image: url(Img/apple.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 48px;
+    width: 162px;
+    margin: 5px;
+}
+table{
+    margin: 10px;
+}
+.table1{
+    font-size: 15px;
+    text-align: left;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
+.table{
+    text-align: left;
+    font-size: 18px;
+    border: none;
+    font-weight: 700;
+    padding: 15px;
+    background-color: transparent;
+
+}
+#footer3{
+    margin-left: 50px;
+}
+.table:hover{
+    color: #258bff;
+}
+.table1:hover{
+    color: #258bff;
+    font-weight: 530;
+}
+#npp2{
+    margin: 8px;
+}
+#npp3{
+    margin: 8px;
+    margin-left: 550px;
+}

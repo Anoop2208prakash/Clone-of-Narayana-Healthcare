@@ -1,0 +1,1208 @@
+body{
+    margin: 0;
+}
+/* div,p{
+    border: 2px solid black;
+} */
+#header{
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    position: sticky;
+
+    top: 0px;
+}
+#pic1{
+    background-image: url(Img/logo.jpg);
+    background-repeat: round;
+    background-size: cover;
+    height: 72px;
+    width: 182px;
+    /* margin-top: 20px; */
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#pic2{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url(Img/search.jpg);
+    background-size: cover;
+    height: 19px;
+    width: 19px;
+}
+#pic3{
+    background-image: url(Img/call-icon1.png);
+    background-size: cover;
+    height: 19px;
+    width: 19px;
+}
+#pic4{
+    background-image: url(Img/location.png);
+    background-size: cover;
+    height: 19px;
+    width: 19px;
+}
+#pic5{
+    background-image: url(Img/user-login.png);
+    background-size: cover;
+    height: 19px;
+    width: 19px;
+}
+#navbar2, #navbar,#content1, #location1, #login1{
+    display: flex;
+    height: 20px;
+    color: #034ea2;
+    margin-top: 35px;
+}
+#header, .nav1, .cont1, .locat, .login{
+    display: flex;
+}
+.about{
+    height: 28px;
+}
+#nav-bar{
+    display: flex;
+    position: absolute;
+    left: 550px;
+    height: 42px;
+    top: 85px;
+    align-content: center;
+    text-align: center;
+}
+#navbar{
+    margin-left: 480px;
+    font-size: 18px;
+}
+#navbar2, #content1, #location1, #login1{
+    margin-left: 60px;
+    font-size: 18px;
+}
+#about1{
+    margin-left: 40px;
+    width: 78px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#services1{
+    margin-left: 40px;
+    width: 107px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#network1{
+    margin-left: 40px;
+    width: 115px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#health6{
+    margin-left: 40px;
+    width: 93px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#emergency1{
+    margin-left: 40px;
+    width: 94px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#button1{
+    margin-left: 40px;
+}
+#navbar3, #content2, #location2, #login2{
+    margin-left: 5px;
+}
+#navbar3{
+    width: 118px;
+    background-color: white;
+    color: #034ea2;
+    border: none;
+    margin-top: 0;
+    /* margin-left: 5px; */
+    height: 20px;
+    font-size: 15px;
+}
+#location3{
+    border: none;
+    font-size: 15px;
+    color: #034ea2;
+}
+.appointment-container {
+    position: relative;
+    display: inline-block;
+}
+
+.appointment-button {
+    /* padding: 15px 30px; */
+    height: 40px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+    background-color: #034ea2;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.appointment-button:hover {
+    background-color: #034ea2;
+}
+
+/* Contact Info, hidden by default */
+.contact-info {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+/* Show the contact info on button hover */
+.appointment-container:hover .contact-info {
+    display: block;
+}
+#app3{
+    background-image: url(Img/doctor-appointment.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+#consu3{
+    background-image: url(Img/video_consulatation.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+#lab3{
+    background-image: url(Img/lab_test.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+#health3{
+    background-image: url(Img/health-care.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+#app2, #consu2, #first, #lab2, #health2, #second{
+    display: flex;
+}
+#app4, #consu4, #lab4, #health4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#app1, #consu1, #lab1, #health1{
+    height: 100px;
+    width: 280px;
+}
+#background1{
+    background-image: url(Img/background.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+}
+#app5, #consu5, #lab5, #health5{
+    margin-left: 40px;
+    text-align: left;
+    margin-top: 5px;
+}
+.modal {
+    /* display: none; */
+    position: fixed;
+    /* z-index: 1; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 770px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#logins1, #loginright{
+    display: inline-flex;
+}
+
+#logins1{
+    height: 579px;
+    width: 768px;
+}
+#loginleft1{
+    height: 122px;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loginleft2{
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+#loginleft3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    height: 40px;
+    width: 40px;
+    background-image: url(Img/person.png);
+    background-size: cover;
+}
+#loginleft7{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    height: 40px;
+    width: 40px;
+    background-image: url(Img/clipboard.png);
+    background-size: cover;
+}
+#loginleft5{
+    margin-top: 40px;
+    height: 122px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loginleft6{
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+#loginleft9{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 122px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loginleft10{
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+#loginleft11{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    height: 40px;
+    width: 40px;
+    background-image: url(Img/test-tube.png);
+    background-size: cover;
+}
+#logins{
+    height: 577px;
+    width: 304px;
+    background-color: lightblue;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#loginleft12, #loginleft8, #loginleft4{
+    font-weight: 550;
+}
+#loginright2{
+    height: 49.5px;
+    width: 122px;
+    background-image: url(Img/logo.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#loginright3{
+    margin-top: 1;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 8px;
+}
+#loginright4{
+    margin-top: 4px;
+    text-align: left;
+    margin-left: 8px;
+}
+#contactInput{
+    height: 40px;
+    width: 298px;
+}
+#sendOtpBtn{
+    margin-left: 5px;
+    height: 45px;
+    width: 100px;
+    font-size: 10px;
+    color: white;
+    background-color: #034ea2;
+    font-weight: bold;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+#text1{
+    display: flex;
+}
+#otpInput{
+    height: 40px;
+    width: 298px;
+}
+#verifyOtpBtn{
+    margin-left: 5px;
+    height: 45px;
+    width: 100px;
+    font-size: 10px;
+    color: white;
+    background-color: #034ea2;
+    font-weight: bold;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+#text2{
+    display: flex;
+}
+#mobileBtn, #emailBtn{
+    background-color: white;
+    color: black;
+    height: 35px;
+    width: 200px;
+}
+.active {
+    background-color: grey !important;
+    color: white !important;
+}
+#contactForm, #otpForm{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+/* #subscribe{
+    margin-top: 200px;
+} */
+#loginform{
+    position: fixed;
+    bottom: 80px;
+    margin-left: 20px;
+}
+#text3{
+    margin-top: 0;
+    margin-bottom: 1;
+    text-align: left;
+}
+#btn{
+    background-color: white;
+    color: #034ea2;
+    border: none;
+    margin-top: 0;
+    margin-left: 5px;
+    height: 20px;
+    font-size: medium;
+}
+#blogs1{
+    display: flex;
+}
+#blogs2{
+    height: 65px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+#blogs3{
+    background-color: transparent;
+    color: #034ea2;
+    border: none;
+    font-size: medium;
+    height: 25px;
+}
+#blogs4{
+    font-size: medium;
+    height: 25px;
+}
+/* #blogs5{
+    height: 710px;
+    padding: 10px;
+} */
+#bloge6{
+    /* background-color: #f3f3f3; */
+    width: 685px;
+    height: 680px;
+}
+#bloge6,#bloge11{
+    display: flex;
+}
+#bloge7{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+#bloge8{
+    background-image: url(Img/player_injuries.jpg);
+    background-repeat: round;
+    background-size: cover;
+    width: 620px;
+    height: 430px;
+}
+#bloge9{
+    color: #034ea2;
+    font-size: larger;
+    font-weight: bold;
+    width: 620px;
+}
+#bloge10{
+    width: 620px;
+    font-size: 20px;
+}
+#bloge13, #bloge18, #bloge28, #bloge38, #bloge23, #bloge33, #Bloge1{
+    display: flex;
+}
+#bloge14{
+    background-image: url(Img/general_health.jpg);
+    background-repeat: round;
+    background-size: cover;
+    width: 220px;
+    margin-right: 10px;
+    height: 140px;
+}
+#bloge12{
+    margin-left: 30px;
+    width: 770px;
+}
+#bloge19, #bloge29, #bloge39, #Bloge2{
+    align-content: center;
+    border-radius: 50%;
+    background-color: #daf3ff;
+    color: #034ea2;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+}
+#bloge24{
+    background-image: url(Img/packings-pills-capsules-medicine.jpg);
+    background-repeat: round;
+    background-size: cover;
+    margin-right: 10px;
+    width: 220px;
+    height: 140px;
+}
+#bloge34{
+    background-image: url(Img/images.jpg);
+    background-repeat: round;
+    margin-right: 10px;
+    background-size: cover;
+    width: 220px;
+    height: 140px;
+}
+/* #bloge15, #bloge25, #bloge35{
+    margin-left: 15px;
+} */
+#bloge16, #bloge26, #bloge36{
+    color: #034ea2;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#bloge17, #bloge27, #bloge37{
+    font-size: 18px;
+    margin-top: 20px;
+}
+#bloge21, #bloge31, #bloge41, #Bloge4{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 17px;
+}
+#bloge22, #bloge32, #bloge42, #Bloge5{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+#bloge19, #bloge29, #bloge39{
+    margin-top: 6px;
+}
+#bloge13{
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+    border: 1px solid gray;
+    height: 140px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#bloge23{
+    margin-top: 45px;
+    /* margin-bottom: 40px; */
+    border: 1px solid gray;
+    height: 140px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+#bloge33{
+    margin-top: 45px;
+    /* margin-bottom: 40px; */
+    border: 1px solid gray;
+    height: 140px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#bloge20, #bloge30, #bloge40, #Bloge3{
+    margin-left: 10px;
+}
+#Bloge1{
+    margin-top: 35px;
+}
+/* Styling for the Latest Blog section */
+/* Styling for the Latest Blog section */
+.latest-blog {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the Latest Blog heading */
+.latest-blog h2 {
+    font-size: 45px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Styling for the paragraph text */
+.latest-blog p {
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Styling for the button row */
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    flex-wrap: wrap; /* Allows wrapping if screen size is small */
+}
+
+/* Styling for the labels to look like buttons */
+.button-row label {
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #034ea2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Change the button color when hovered */
+/* .button-row label:hover {
+    background-color: #0056b3;
+} */
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Styling for hidden divs */
+.hidden-divs {
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+}
+
+/* Display divs based on selected radio button */
+#showThreeDivs:checked ~ #threeDivs,
+#showFourDivs:checked ~ #fourDivs,
+#showNewFourDivs:checked ~ #newFourDivs,
+#showAnotherFourDivs:checked ~ #anotherFourDivs,
+#showYetAnotherFourDivs:checked ~ #yetAnotherFourDivs {
+    display: flex;
+}
+
+/* Styling for the individual boxes */
+.hidden-divs .box {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block; /* Align in a row */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Active state: When the radio button is checked, change the corresponding label’s background and text color */
+#showThreeDivs:checked ~ .button-row label[for="showThreeDivs"],
+#showFourDivs:checked ~ .button-row label[for="showFourDivs"],
+#showNewFourDivs:checked ~ .button-row label[for="showNewFourDivs"],
+#showAnotherFourDivs:checked ~ .button-row label[for="showAnotherFourDivs"],
+#showYetAnotherFourDivs:checked ~ .button-row label[for="showYetAnotherFourDivs"] {
+    background-color: #034ea2; /* Change background color when active */
+    color: white; /* Ensure text stays visible */
+}
+
+.box{
+    height: 450px;
+    width: 326px;
+}
+#a1, #a9, #a10, #b1, #b9, #b10, #b11, #c1, #c9, #c10, #c11, #d1, #d9, #d10, #d11, #e1, #e9, #e10, #e11, #f1, #f9, #f10, #f11{
+    background-size: cover;
+    background-repeat: round;
+    height: 190px;
+    width: 285px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+#a2, #b2, #c2, #d2, #e2{
+    margin-top: 5px;
+    color: #034ea2;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 285px;
+}
+#a3, #b3, #c3, #d3, #e3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #454545;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 285px;
+}
+#a4{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 120px;
+}
+#b12, #e13{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 100px;
+}
+#b13{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 80px;
+}
+#a12{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 100px;
+}
+#c12, #d12, #e12{
+    border-top: 1px solid gray;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 140px;
+}
+#a5{
+    align-content: center;
+    border-radius: 50%;
+    background-color: #daf3ff;
+    color: #034ea2;
+    height: 40px;
+    text-align: center;
+    margin-top: 6px;
+    width: 40px;
+}
+#a6{
+    margin-left: 10px;
+}
+#a7{
+    margin-top: 5px;
+    color: black;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 17px;
+}
+#a8{
+    margin-top: 5px;
+    color: black;
+    margin-bottom: 2px;
+    /* font-weight: bold; */
+    font-size: 14px;
+}
+#a1{
+    background-image: url(Img/Orthopedics-1.jpg);
+}
+#a9 {
+    background-image: url(Img/complaining-about-pain-in-should.jpg);
+}
+#a10{
+    background-image: url(Img/dreamstime_s_54935352.jpg);
+}
+#b1 {
+    background-image: url(Img/getting-physical-examination_thu.jpg);
+}
+#b9 {
+    background-image: url(Img/man_getting_oxygen_mask.jpg);
+}
+#b10 {
+    background-image: url(Img/ecg.jpg);
+}
+#b11 {
+    background-image: url(Img/new-york-surgical-errors-lawyer.jpg);
+}
+#c1 {
+    background-image: url(Img/g6se5BwmoyQCezlscmPE.jpg);
+}
+#c9 {
+    background-image: url(Img/A3vurMwGlNoqTofdihLK.jpg);
+}
+#c10 {
+    background-image: url(Img/zJ3yyApVSayCkEQEeKGd.jpg);
+}
+#c11 {
+    background-image: url(Img/lLdNkufIdB44yW3XmJK6.jpg);
+}
+#d1 {
+    background-image: url(Img/G123dnpKzCjKSsQRc677.jpg);
+}
+#d9 {
+    background-image: url(Img/food.jpg);
+}
+#d10 {
+    background-image: url(Img/cop.jpg);
+}
+#d11 {
+    background-image: url(Img/diabetes.jpg);
+}
+#e1 {
+    background-image: url(Img/lung.jpg);
+}
+#e9 {
+    background-image: url(Img/heart1.jpg);
+}
+#e10 {
+    background-image: url(Img/heart2.jpg);
+}
+#e11 {
+    background-image: url(Img/heart3.jpg);
+}
+#button2{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+#button3{
+    text-align: center;
+}
+.button4{
+    padding: 10px 15px;
+    margin: 10px,8px,10px,8px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+ .button4:hover {
+    background-color: #0056b3;
+    color: white;
+}
+#medical4, #dr1, #Dr2, #medical5{
+    display: flex;
+}
+#dr2{
+    background-image: url(Img/3d-happy-cartoon-doctor-cartoon.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 100px;
+    width: 100px;
+}
+#dr7{
+    background-image: url(Img/dr7.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 100px;
+    width: 100px;
+}
+#dr8{
+    background-image: url(Img/dr8.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 100px;
+    width: 100px;
+}
+#dr9{
+    background-image: url(Img/dr9.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 100px;
+    width: 100px;
+}
+#medical2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#medical3{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+#medical4{
+    margin-left: 10px;
+    margin-top: 35px;
+}
+#medical5{
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+#medical1{
+    background-color: #f4f4f4;
+}
+#dr1{
+    margin: 10px;
+    width: 350px;
+    background-color: white;
+    padding: 10px;
+}
+#Dr2{
+    /* margin-right: 80px; */
+    margin: 10px;
+    width: 350px;
+    background-color: white;
+    padding: 10px;
+}
+#dr4{
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+#dr5{
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+#dr6{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+#Med3{
+    display: flex;
+}
+#aim1{
+    background-color: #daf3ff;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+    width: 650px;
+    padding: 10px;
+}
+#aim2{
+    font-size: 20px;
+    font-weight: 700;
+    height: 60px;
+    width: 640px;
+    margin-top: 5px;
+}
+#aim3{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+}
+#aim4{
+    background-image: url(Img/aim4.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aim5{
+    background-image: url(Img/aim5.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aim6{
+    background-image: url(Img/aim6.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#im4{
+    height: 92px;
+    width: 160px;
+    font-size: 16px;
+    text-align: center;
+}
+#aim7{
+    background-image: url(Img/arrow_right.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#title3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#title4{
+    display: flex;
+}
+#f1 {
+    background-image: url(Img/f1.png);
+}
+#f9 {
+    background-image: url(Img/f9.png);
+}
+#f10 {
+    background-image: url(Img/f10.png);
+}
+#f11 {
+    background-image: url(Img/f11.png);
+}
+.box1{
+    height: 450px;
+    width: 326px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#footer{
+    margin-top: 50px;
+    background-color: #ecefef;
+    height: 525px;
+}
+#footer1, #footer_logo, #footer_email, #footer_dox1, #npp1{
+    display: flex;
+}
+#footer1{
+    margin: 10px;
+}
+#footer_img1{
+    background-image: url(Img/logo.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 74px;
+    width: 185px;
+}
+#footer2{
+    margin: 10px;
+}
+#footer_con{
+    font-size: 18px;
+    font-weight: 500;
+    height: 47px;
+    width: 340px;
+}
+#footer_logo{
+    height: 50px;
+    width: 340px;
+}
+.footer_socil{
+    height: 32px;
+    width: 32px;
+    margin: 10px;
+}
+#face{
+    background-image: url(Img/facebook_logos.png);
+    background-size: cover;
+    background-repeat: round;
+}
+#twi{
+    background-image: url(Img/Twitter_logo.png);
+    background-size: cover;
+    background-repeat: round;
+}
+#link{
+    background-image: url(Img/linkedin-logo.png);
+    background-size: cover;
+    background-repeat: round;
+}
+#ins{
+    background-image: url(Img/instagram_logo.png);
+    background-size: cover;
+    background-repeat: round;
+}
+#footer_sub{
+    height: 25px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#footer_email{
+    height: 62px;
+    width: 340px;
+    background-color: white;
+
+}
+#footer_email1{
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 50px;
+    width: 290px;
+    padding: 15px,20px,15px,20px;
+    border: none;
+}
+#footer_email2{
+    height: 55px;
+    width: 50px;
+    background-color: white;
+}
+#sendButton{
+    background-image: url(Img/paper.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin-top: 15px;
+    color: transparent;
+    border: none;
+}
+#footer_dow{
+    font-size: 18px;
+    font-weight: 500px;
+    height: 27px;
+    width: 340px;
+}
+#footer_dox2{
+    background-image: url(Img/google-play.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 48px;
+    width: 162px;
+    margin: 5px;
+}
+#footer_dox3{
+    background-image: url(Img/apple.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 48px;
+    width: 162px;
+    margin: 5px;
+}
+table{
+    margin: 10px;
+}
+.table1{
+    font-size: 15px;
+    text-align: left;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
+.table{
+    text-align: left;
+    font-size: 18px;
+    border: none;
+    font-weight: 700;
+    padding: 15px;
+    background-color: transparent;
+
+}
+#footer3{
+    margin-left: 50px;
+}
+.table:hover{
+    color: #258bff;
+}
+.table1:hover{
+    color: #258bff;
+    font-weight: 530;
+}
+#npp2{
+    margin: 8px;
+}
+#npp3{
+    margin: 8px;
+    margin-left: 650px;
+}
